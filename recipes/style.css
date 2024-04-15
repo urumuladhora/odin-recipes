@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    /* background-color: darkolivegreen; */
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: antiquewhite;
 }
 
 .title {
@@ -40,6 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 35px;
+    margin-bottom: 25px;
 }
 
 .ingredients-container {
@@ -49,7 +50,7 @@ body {
     border: 3px solid black;
     width: 600px;
     padding: 35px;
-    margin: auto;
+    margin: 25px auto;
 }
 
 li {
@@ -60,7 +61,7 @@ li {
 .directions-container {
     display: flex;
     width: 600px;
-    margin: auto;
+    margin: 25px auto;
     justify-content: center;
     align-items: center;
     padding: 35px;
